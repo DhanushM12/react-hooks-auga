@@ -1,5 +1,7 @@
 import './App.css';
 import UseEffect from './hooks/UseEffect';
+import UseMemo from './hooks/UseMemo';
+import UseRef from './hooks/UseRef';
 import UseState from './hooks/UseState';
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className="App">
       <UseState />
       <UseEffect />
+      <UseRef />
+      <UseMemo />
     </div>
   );
 }
